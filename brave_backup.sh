@@ -8,7 +8,8 @@ fi
 # Define variables
 SOURCE_DIR="$HOME/.config/BraveSoftware"
 BACKUP_DIR="$HOME/dotfiles"
-BACKUP_FILE="$BACKUP_DIR/BraveSoftware_$(date +%Y%m%d_%H%M%S).tar.gz"
+# BACKUP_FILE="$BACKUP_DIR/BraveSoftware_$(date +%Y%m%d_%H%M%S).tar.gz"
+BACKUP_FILE="$BACKUP_DIR/BraveSoftware_$(date +%Y%m%d_%H%M%S).zip"
 ENCRYPTED_FILE="$BACKUP_FILE.gpg"
 COMMITTER_COMMAND="gitcommiter -d $HOME/dotfiles"
 
