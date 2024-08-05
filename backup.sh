@@ -6,7 +6,7 @@
 # using restic: https://restic.net/ create encrytped backups of brave, chrome & more
 restic -r $HOME/backup/ backup "$HOME/.config/BraveSoftware/"
 restic -r $HOME/backup/ backup "$HOME/.config/google-chrome/"
-restic -r $HOME/backup/ backup "$HOME/Desktop/"
+# restic -r $HOME/backup/ backup "$HOME/Desktop/" # will be too much
 restic -r $HOME/backup/ backup "$HOME/.config/chromium/"
 restic -r $HOME/backup/ backup "$HOME/.config/opera/"
 restic -r $HOME/backup/ backup "$HOME/.config/tilix/"
